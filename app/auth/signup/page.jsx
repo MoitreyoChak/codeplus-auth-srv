@@ -13,7 +13,7 @@ export default function Register() {
     const r = await register({
       email,
       password,
-      name: name,
+      name,
     });
 
     if (r?.error) {
